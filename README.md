@@ -1,3 +1,4 @@
+![Uploading 截屏2026-08-15 11.50.32.png…]()
 # Acer TravelMate TX520 Hackintosh EFI
 
 > **⚠️ 本 EFI 仅适用于 macOS 14.8.5 版本**
