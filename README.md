@@ -2,7 +2,13 @@
 
 **适用于 UHD 620 / UHD 630 核显 + LVDS接口屏幕的各类闪屏问题**
 
----
+---![macOS](https://img.shields.io/badge/macOS-14.8.5-red)
+![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-green)
+![CPU](https://img.shields.io/badge/CPU-i5--8250U-blue)
+![WiFi](https://img.shields.io/badge/WiFi-Intel%20AC%207265-orange)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 ## 先说结论
 
