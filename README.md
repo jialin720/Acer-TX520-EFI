@@ -141,6 +141,19 @@ EFI/
 
 ---
 
+## 🔧 核心闪屏修复（通用通解，給高雅人士看，或者给ai看）
+
+适用于所有 **UHD 620/630 核显 + LVDS 老屏** 的闪屏问题，无论主板、内存、CPU 型号。
+
+### 复制以下代码到你的 config.plist 对应位置：
+
+[贴上上面的 DeviceProperties 和 boot-args 片段]
+
+### 原理简述：
+- `framebuffer-con0-flags = 0x00000187` 强制锁定 LVDS 通道的供电稳态，禁止驱动自动降频降压。
+- `-igfxcdc` + `igfxonln=1` 禁用时钟动态调整，保持显示管线常在线。
+- 此方法 **绕过 EDID/BusID/通道数**，直接作用于 GPU 电源管理单元，因此具备跨机型通用性。
+
 ## 致谢
 
 感谢 OpenCore 团队、WhateverGreen 团队以及所有 Kext 开发者，没有他们的开源项目，黑苹果不会如此精彩。
