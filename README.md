@@ -37,7 +37,7 @@
 
 找到 `DeviceProperties` -> `Add` 下面，**在你的核显设备路径（通常是 `PciRoot(0x0)/Pci(0x2,0x0)`）下**，添加如下键值：
 
-```xml
+xml
 <key>DeviceProperties</key>
 <dict>
     <key>Add</key>
